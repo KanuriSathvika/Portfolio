@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { HiCode, HiLightningBolt, HiCube, HiChartBar } from 'react-icons/hi'
+import profileImage from '/sathvika.png'
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -96,7 +97,7 @@ const About = () => {
               {/* Profile Photo */}
               <div className="absolute inset-12 rounded-full overflow-hidden border-4 border-primary-500/30 shadow-2xl">
                 <img
-                  src="/sathvika.png"
+                  src={profileImage}
                   alt="Sathvika Kanuri"
                   className="w-full h-full object-cover"
                 />

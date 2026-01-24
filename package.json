@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://kanurisathvika.github.io/Portfolio",
   "scripts": {
     "dev": "vite",
     "start": "vite",
